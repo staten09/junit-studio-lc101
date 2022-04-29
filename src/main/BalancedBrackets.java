@@ -29,7 +29,13 @@ public class BalancedBrackets {
             } else if (ch == ']') {
                 brackets--;
             }
+            if (brackets < 0) {
+                break;
+            }
         }
         return brackets == 0;
+    }
+    public static int sum(int num1,int num2){
+        return num1 + num2;
     }
 }
