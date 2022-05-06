@@ -75,4 +75,8 @@ public class BalancedBracketsTest {
         assertFalse(BalancedBrackets.hasBalancedBrackets("Launch]Code"));
     }
 
+    @Test
+    public void inputContainsA(){
+        assertTrue(BalancedBrackets.containsA("Blake"));
+    }
 }

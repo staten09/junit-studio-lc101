@@ -1,6 +1,8 @@
 package main;
 
 
+import java.util.Scanner;
+
 public class BalancedBrackets {
     /**
      * The function BalancedBrackets should return true if and only if
@@ -38,4 +40,10 @@ public class BalancedBrackets {
     public static int sum(int num1,int num2){
         return num1 + num2;
     }
+
+
+
+    public static Boolean containsA(String sumString){
+        return sumString.contains("a");
+    };
 }
